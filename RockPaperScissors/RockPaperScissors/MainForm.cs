@@ -39,7 +39,7 @@ namespace RockPaperScissors
         {
             Close();
         }
-        private void GameResult(int user,int com) //0 = user win 1 = com win 2 = draw
+        private void GameResult(int user,int com)
         {
             switch (com)
             {
