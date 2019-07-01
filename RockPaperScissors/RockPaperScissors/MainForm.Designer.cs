@@ -40,9 +40,10 @@
             // result
             // 
             this.result.AutoSize = true;
+            this.result.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.result.Location = new System.Drawing.Point(551, 102);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(42, 15);
+            this.result.Size = new System.Drawing.Size(83, 28);
             this.result.TabIndex = 0;
             this.result.Text = "result";
             // 
@@ -50,7 +51,7 @@
             // 
             this.rock.Location = new System.Drawing.Point(136, 246);
             this.rock.Name = "rock";
-            this.rock.Size = new System.Drawing.Size(75, 23);
+            this.rock.Size = new System.Drawing.Size(75, 47);
             this.rock.TabIndex = 1;
             this.rock.Text = "Rock";
             this.rock.UseVisualStyleBackColor = true;
@@ -59,7 +60,7 @@
             // 
             this.paper.Location = new System.Drawing.Point(340, 246);
             this.paper.Name = "paper";
-            this.paper.Size = new System.Drawing.Size(75, 23);
+            this.paper.Size = new System.Drawing.Size(75, 47);
             this.paper.TabIndex = 2;
             this.paper.Text = "Paper";
             this.paper.UseVisualStyleBackColor = true;
@@ -68,7 +69,7 @@
             // 
             this.scissors.Location = new System.Drawing.Point(543, 246);
             this.scissors.Name = "scissors";
-            this.scissors.Size = new System.Drawing.Size(75, 23);
+            this.scissors.Size = new System.Drawing.Size(75, 47);
             this.scissors.TabIndex = 3;
             this.scissors.Text = "Scissors";
             this.scissors.UseVisualStyleBackColor = true;
@@ -77,7 +78,7 @@
             // 
             this.exit.Location = new System.Drawing.Point(340, 338);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(75, 23);
+            this.exit.Size = new System.Drawing.Size(75, 46);
             this.exit.TabIndex = 5;
             this.exit.Text = "Exit";
             this.exit.UseVisualStyleBackColor = true;
@@ -85,20 +86,22 @@
             // comSelect
             // 
             this.comSelect.AutoSize = true;
-            this.comSelect.Location = new System.Drawing.Point(349, 102);
+            this.comSelect.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.comSelect.Location = new System.Drawing.Point(322, 102);
             this.comSelect.Name = "comSelect";
-            this.comSelect.Size = new System.Drawing.Size(78, 15);
+            this.comSelect.Size = new System.Drawing.Size(154, 28);
             this.comSelect.TabIndex = 6;
             this.comSelect.Text = "ComSelect";
             // 
             // comText
             // 
             this.comText.AutoSize = true;
-            this.comText.Location = new System.Drawing.Point(153, 102);
+            this.comText.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.comText.Location = new System.Drawing.Point(141, 102);
             this.comText.Name = "comText";
-            this.comText.Size = new System.Drawing.Size(37, 15);
+            this.comText.Size = new System.Drawing.Size(82, 28);
             this.comText.TabIndex = 7;
-            this.comText.Text = "Com";
+            this.comText.Text = "Com:";
             // 
             // MainForm
             // 
